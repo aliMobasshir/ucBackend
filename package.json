@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend monorepo for the project",
+  "workspaces": [
+    "services/*",
+    "api-gateway"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "type": "commonjs"
+}
